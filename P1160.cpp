@@ -32,6 +32,7 @@ int main() {
 
     /* 2-N号同学依次入列 */
     for (int i = 2; i <= N; i++) {
+        
         cin >> k >> p;
         if (p == 0) {   /* ... k -> ... i k */
             if (student[k].left == 0) { /* k -> i k */
